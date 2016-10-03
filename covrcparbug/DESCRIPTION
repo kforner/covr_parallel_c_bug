@@ -1,0 +1,15 @@
+Package: covrcparbug
+Type: Package
+Title: Reproducible example of covr parallel bug with C code.
+Version: 0.0.1
+Date: 2011-06-08
+Authors@R: c(person("Karl", "Forner", role = c("aut", "cre"),
+    email = "karl.forner@quartz.bio"))
+Description: Reproducible example of covr parallel bug with C code.
+License: GPL
+Suggests:
+    covr,
+    devtools,
+    parallel,
+    testthat
+RoxygenNote: 5.0.1
